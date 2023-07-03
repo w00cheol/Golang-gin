@@ -23,7 +23,7 @@ func ResponseFail(ctx *gin.Context, httpStatus int, err error) {
 	})
 }
 
-// 에러 발생 시 JSON 응답 함수
+// 성공 시 JSON 응답 함수
 func ResponseSuccess(ctx *gin.Context, httpStatus int, data any) {
 	ctx.JSON(httpStatus, ApiResponse{
 		Status: StatusSuccess,
