@@ -1,8 +1,3 @@
-/*
-https://school.programmers.co.kr/learn/courses/30/lessons/181944?language=go
-홀짝 구분하기
-*/
-
 package main
 
 import (
@@ -12,7 +7,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// 그냥 간단한 분기문
 func main() {
 	serverPort := os.Args[1]
 
